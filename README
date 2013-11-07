@@ -1,0 +1,8 @@
+Build: psake.bat 
+
+This packages and deploys the module to //TFSBUILD2/builds
+
+In Jenkins use the -properties switch to pass in the changeset 
+
+eg. psake.bat -properties @{changeset='%TFS_CHANGESET%'}
+
